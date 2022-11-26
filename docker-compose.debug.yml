@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  inspectionamessagingapp:
+    image: inspectionamessagingapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
